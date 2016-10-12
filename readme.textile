@@ -2,11 +2,15 @@ h1. Liberty/ATG Standardization Payments Platform
 
 h2. Rules of Repository Engagement
 * Keep the root level unpolluted. Create a folder to hold logical groupings of work.
-* An 'Explore' folder is available to explore ideas without polluting your own directory structure. Please create folders underneath the Explore folder and do not pollute the root of the explore folder.
+* An *Explore* folder is available to explore ideas without polluting your own directory structure. Please create folders underneath the Explore folder and do not pollute the root of the explore folder.
 * Use the conventional SVN structures:
-*  trunk - Should contain a stable build of the application at all times
-*  branches - A branch should be created from the trunk to implement new feature development
-*  tags - *All Production releases MUST* be tagged. Make a tag for any point in time that may be important to the team. It is the *responsibility of your team* to tag your releases as they happen.
+* *trunk* - Should contain a stable build of the application at all times
+* *branches* - A branch should be created from the trunk to implement new feature development
+* *tags* - *All Production releases MUST* be tagged. Make a tag for any point in time that may be important to the team. It is the *responsibility of your team* to tag your releases as they happen.
+
+h2. Documents folder
+
+The *Documents* folder is a simple structure to hold important documents for the teams.
 
 h2. Explore folder
 
@@ -18,4 +22,4 @@ The *QA* folder is a formalized SVN structure dedicated to the QA team. Please f
 
 h2. UI folder
 
-The *UI* folder is a formalized SVN structure dedicated to the UIUX team. Please follow a conventional Subversion approach. See Rules of Repository Engagement.
+The *UI* folder is a formalized SVN structure dedicated to the UI/UX team. Please follow a conventional Subversion approach. See Rules of Repository Engagement.
