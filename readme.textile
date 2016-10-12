@@ -7,6 +7,7 @@ h2. Rules of Repository Engagement
 * *trunk* - Should contain a stable build of the application at all times
 * *branches* - A branch should be created from the trunk to implement new feature development
 * *tags* - *All Production releases MUST* be tagged. Make a tag for any point in time that may be important to the team. It is the *responsibility of your team* to tag your releases as they happen.
+* node_modules and other package folders should NOT be checked in
 
 h2. Documents folder
 
