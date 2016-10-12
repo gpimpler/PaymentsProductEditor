@@ -19,9 +19,9 @@ echo "Bower Version:"
 bower --version
 if nvm list 6 | grep "N/A"
 then
-nvm install 6.1
+nvm install 6.1.0
 fi
-nvm use 6
+nvm use 6.1.0
 npm install
 bower install
 echo "Build and run the server using 'gulp build'"

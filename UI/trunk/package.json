@@ -1,7 +1,7 @@
 {
-  "name": "mypack",
+  "name": "liberty",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Liberty / ATG Standardization Project",
   "author": "steve hahn",
   "private": true,
   "scripts": {
