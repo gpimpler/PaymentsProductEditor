@@ -1,0 +1,37 @@
+$color-offwhite: #ededed;
+$color-lightestgrey: #dfdfdf;
+$color-lightgrey: #d5d5d5;
+$color-grey: #969696;
+$color-darkgrey: #5a606a;
+$color-darkblue: #252c44;
+$color-black: #171915;
+$color-blue: #4368bb; // #4b74d4
+$color-brightblue: #5686f5;
+$color-green: #70b696;
+$color-rust: #af4933;
+$color-navy: #3f4a61;
+$color-lime: #73b42a;
+$color-white: #ffffff;
+$color-cobalt: #2e5190;
+$color-orange: #e38524;
+$color-red: #bb5d40;
+$color-error: $color-red;
+$font-family: 'proxima-nova', arial;
+
+@import './bower_components/foundation-sites/scss/foundation.scss';
+@import 'config';
+@import 'style-guide';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+@import 'buttons';
+@import 'carousel';
+@import 'filter';
+@import 'forms';
+@import 'inpage';
+@import 'navigation';
+@import 'pagination';
+@import 'typography';
