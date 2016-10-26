@@ -1,3 +1,39 @@
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../fonts/pn-regular.eot');
+  src: url('../fonts/pn-regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/pn-regular.woff2') format('woff2'),
+     url('../fonts/pn-regular.woff') format('woff'),
+     url('../fonts/pn-regular.ttf') format('truetype'),
+     url('../fonts/pn-regular.svg#proxima_novaregular') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../fonts/pn-semibold.eot');
+  src: url('../fonts/pn-semibold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/pn-semibold.woff2') format('woff2'),
+     url('../fonts/pn-semibold.woff') format('woff'),
+     url('../fonts/pn-semibold.ttf') format('truetype'),
+     url('../fonts/pn-semibold.svg#proxima_novasemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../fonts/pn-bold.eot');
+  src: url('../fonts/pn-bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/pn-bold.woff2') format('woff2'),
+     url('../fonts/pn-bold.woff') format('woff'),
+     url('../fonts/pn-bold.ttf') format('truetype'),
+     url('../fonts/pn-bold.svg#proxima_novabold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
 $color-offwhite: #ededed;
 $color-lightestgrey: #dfdfdf;
 $color-lightgrey: #d5d5d5;
@@ -27,6 +63,7 @@ $font-family: 'proxima-nova', arial;
 @include foundation-typography;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
+@import 'typography';
 @import 'buttons';
 @import 'carousel';
 @import 'filter';
@@ -34,4 +71,3 @@ $font-family: 'proxima-nova', arial;
 @import 'inpage';
 @import 'navigation';
 @import 'pagination';
-@import 'typography';
