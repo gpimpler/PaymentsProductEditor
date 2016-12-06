@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 echo ' '
-echo ' /$$   /$$  /$$$$$$'
-echo '| $$  | $$ /$$__  $$'
-echo '| $$  | $$| $$  \__/'
-echo '| $$$$$$$$| $$'
-echo '| $$__  $$| $$'
-echo '| $$  | $$| $$    $$'
-echo '| $$  | $$|  $$$$$$/'
-echo '|__/  |__/ \______/  Project Installer'
+echo ' /$$   /$$  /$$$$$$  /$$   /$$ '
+echo '| $$  | $$ /$$__  $$| $$  | $$'
+echo '| $$  | $$| $$  \__/| $$  | $$|'
+echo '| $$$$$$$$| $$      | $$$$$$$$|'
+echo '| $$__  $$| $$      | $$__  $$|'
+echo '| $$  | $$| $$    $$| $$  | $$|'
+echo '| $$  | $$|  $$$$$$/| $$  | $$|'
+echo '|__/  |__/ \______/ |__/  |__/  Project Installer'
 echo ' '
 
 echo "This install requires a Node version of 6.0 or greater, NPM, Bower, and also NVM (Node Version Manager)."
