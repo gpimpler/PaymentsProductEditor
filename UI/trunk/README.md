@@ -1,3 +1,6 @@
+## Run install script make sure permssion is set to execute or 777
+install.sh
+
 ## Build Setup
 
 ``` bash
