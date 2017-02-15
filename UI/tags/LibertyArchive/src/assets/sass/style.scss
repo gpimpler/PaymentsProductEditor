@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../fonts/pn-regular.eot');
+  src: url('../fonts/pn-regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/pn-regular.woff2') format('woff2'),
+     url('../fonts/pn-regular.woff') format('woff'),
+     url('../fonts/pn-regular.ttf') format('truetype'),
+     url('../fonts/pn-regular.svg#proxima_novaregular') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../fonts/pn-semibold.eot');
+  src: url('../fonts/pn-semibold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/pn-semibold.woff2') format('woff2'),
+     url('../fonts/pn-semibold.woff') format('woff'),
+     url('../fonts/pn-semibold.ttf') format('truetype'),
+     url('../fonts/pn-semibold.svg#proxima_novasemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../fonts/pn-bold.eot');
+  src: url('../fonts/pn-bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/pn-bold.woff2') format('woff2'),
+     url('../fonts/pn-bold.woff') format('woff'),
+     url('../fonts/pn-bold.ttf') format('truetype'),
+     url('../fonts/pn-bold.svg#proxima_novabold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+$color-offwhite: #ededed;
+$color-lightestgrey: #dfdfdf;
+$color-lightgrey: #d5d5d5;
+$color-grey: #969696;
+$color-darkgrey: #5a606a;
+$color-darkblue: #252c44;
+$color-black: #171915;
+$color-blue: #4368bb; // #4b74d4
+$color-brightblue: #5686f5;
+$color-green: #70b696;
+$color-rust: #af4933;
+$color-navy: #3f4a61;
+$color-lime: #73b42a;
+$color-white: #ffffff;
+$color-cobalt: #2e5190;
+$color-orange: #e38524;
+$color-red: #bb5d40;
+$color-error: $color-red;
+$font-family: 'proxima-nova', arial;
+
+@import './bower_components/foundation-sites/scss/foundation.scss';
+@import 'config';
+@import 'style-guide';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+@import 'typography';
+@import 'buttons';
+@import 'carousel';
+@import 'filter';
+@import 'forms';
+@import 'inpage';
+@import 'navigation';
+@import 'pagination';
