@@ -1,0 +1,21 @@
+// Variables
+@import 'node_modules/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+
+@import "variables";
+@import 'config';
+@import 'style-guide';
+@import 'buttons';
+@import 'carousel';
+@import 'filter';
+@import 'forms';
+@import 'inpage';
+@import 'navigation';
+@import 'pagination';
+@import 'typography';
+@import 'search';

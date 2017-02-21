@@ -1,0 +1,12 @@
+.nav__item {
+    color: $color-black;
+    transition: color .3s;
+
+    &:hover {
+        color: $color-blue;
+    }
+}
+
+.nav__item-selected {
+    color: $color-brightblue;
+}
