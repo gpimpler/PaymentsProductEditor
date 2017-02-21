@@ -1,0 +1,42 @@
+@include switch-input;
+@include checkbox;
+@include select-input;
+
+.form__label {
+    font-size: 16px;
+    display: block;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: $color-grey;
+}
+
+.form__input {
+    margin-bottom: 20px;
+    border: 1px solid $color-grey;
+    color: $color-grey;
+    padding: 10px;
+    outline: 0;
+}
+
+.form__input-error {
+    margin-bottom: 0;
+    border-color: $color-error;
+}
+
+.form__feedback {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.form__feedback-error {
+    color: $color-error;
+    font-style: italic;
+}
+
+[type="search"],
+textarea {
+    border: 1px solid $color-grey;
+    color: $color-grey;
+    padding: 10px;
+    outline: 0;
+}
