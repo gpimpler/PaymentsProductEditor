@@ -5,9 +5,12 @@
 }
 
 .common__header {
-  padding: .5em 1em;
-  border-bottom: solid 1px #CCC;
+  border-bottom: solid 1px #666;
   @include common__shadow;
+}
+.common__header-content {
+  border-bottom: solid 1px #666;
+  padding: .5em 2em;
 }
 .common__user {
   margin-right: 2em;
@@ -26,4 +29,35 @@
   padding: 1em;
   text-transform:uppercase;
   font-size: .85em;
+}
+.common__navigation {
+  ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+  }
+  li {
+    display: inline-block;
+    padding: .75em 2em;
+    background-color: #FFF;
+    color: #AAA;
+    cursor: pointer;
+    font-weight: bold;
+    border-right: solid 1px #666;
+
+    i {
+      margin-right: .75em;
+      font-size: 1.5em;
+    }
+  }
+  li:hover {
+    background-color: #496a89;
+    color: #FFF;
+  }
+  background-color: #CCC;
+  text-transform: uppercase;
+}
+.common__navigation-selected {
+  background-color: #496a89;
+  color: #FFF;
 }
