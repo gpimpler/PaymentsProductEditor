@@ -40,7 +40,7 @@
     display: inline-block;
     padding: .75em 2em;
     background-color: #FFF;
-    color: #AAA;
+
     cursor: pointer;
     font-weight: bold;
     border-right: solid 1px #666;
@@ -52,6 +52,11 @@
   }
   li:hover {
     background-color: #496a89;
+  }
+  a {
+    color: #AAA;
+  }
+  a:hover {
     color: #FFF;
   }
   background-color: #CCC;

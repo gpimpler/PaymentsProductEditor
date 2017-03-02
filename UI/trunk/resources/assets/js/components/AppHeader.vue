@@ -1,7 +1,7 @@
 <template>
     <div class="common__header">
         <div class="common__header-content">
-            <div style="display:inline-block">
+            <div style="display:inline-block" @click="onHomeClick()">
                 <img src="../../images/harland-clarke-logo.png" style="height:70px" />
             </div>
             <div class="float-right common__user">
@@ -21,6 +21,11 @@
         },
         components: {
             AppNavigation
+        },
+        methods: {
+            onHomeClick: function () {
+                window.location.href = "#/home"
+            }
         }
     }
 </script>
