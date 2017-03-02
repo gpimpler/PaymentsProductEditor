@@ -9,6 +9,7 @@
 ``` bash
 
 ## Install Dependencies
++ composer self-update
 + composer install
 + npm install
 
@@ -60,4 +61,5 @@ npm run build
 
 # run unit tests
 phpunit tests/
+
 ```
