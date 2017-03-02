@@ -39,11 +39,10 @@
 .common__footer {
   color: #666;
   background-color: #CCC;
-  border-top: solid 1px #FFF;
   text-align: center;
   padding: 1em;
   text-transform:uppercase;
-  font-size: .85em;
+  font-size: .75em;
 }
 .common__navigation {
   ul {
@@ -75,4 +74,7 @@
 .common__navigation-selected {
   @include common__blue-gradient;
   color: #FFF;
+}
+.common__sidebar {
+  border-left: dotted 1px #CCC;
 }
