@@ -6,8 +6,16 @@ let routes = [
         component: require('./views/Home.vue')
     },
     {
-        path: '/about',
-        component: require('./views/About.vue')
+        path: '/designer',
+        component: require('./views/Designer.vue')
+    },
+    {
+        path: '/accents',
+        component: require('./views/Accents.vue')
+    },
+    {
+        path: '/publisher',
+        component: require('./views/Publisher.vue')
     },
     {
         path: '/styles',

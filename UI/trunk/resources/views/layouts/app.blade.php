@@ -24,9 +24,6 @@
     <div id="app">
     	<app-header></app-header>
         <div class="row">
-            <router-link to="/" exact>Home</router-link>
-            <router-link to="/about">About</router-link>
-            <router-link to="/styles">Style Guide</router-link>
             <router-view></router-view>
         </div>
         <app-footer></app-footer>
