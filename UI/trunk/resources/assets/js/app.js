@@ -16,6 +16,8 @@ import router from './routes';
 
 // Vue.component('example', require('./components/Example.vue'));
 // Vue.component('banner', require('./components/Banner.vue'));
+Vue.component('AppHeader', require('./components/AppHeader.vue'));
+Vue.component('AppFooter', require('./components/AppFooter.vue'));
 
 const app = new Vue({
     el: '#app',
