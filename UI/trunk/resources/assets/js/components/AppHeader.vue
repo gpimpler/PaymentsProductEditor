@@ -1,7 +1,7 @@
 <template>
     <div class="common__header">
         <div class="common__header-content">
-            <div style="display:inline-block" @click="onHomeClick()">
+            <div class="common__header-logo" @click="onHomeClick()">
                 <img src="../../images/harland-clarke-logo.png" style="height:70px" />
             </div>
             <div class="float-right common__user">
@@ -24,7 +24,7 @@
         },
         methods: {
             onHomeClick: function () {
-                window.location.href = "#/home"
+                window.location.href = "#/"
             }
         }
     }
