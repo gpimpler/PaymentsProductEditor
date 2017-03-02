@@ -49,7 +49,7 @@
                         </label>
                         <div class="row">
                             <div class="small-6 columns"><label><input type="checkbox" /> Submit Anonymously</label></div>
-                            <div class="small-6 columns"><button>Submit Idea</button></div>
+                            <div class="small-6 columns"><button type="submit" class="button">Submit Idea</button></div>
                         </div>
                     </form>
                 </div>
