@@ -23,9 +23,7 @@
 <body>
     <div id="app">
     	<app-header></app-header>
-        <div class="row">
-            <router-view></router-view>
-        </div>
+    	<router-view></router-view>
         <app-footer></app-footer>
     </div>
 

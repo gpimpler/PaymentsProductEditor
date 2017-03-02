@@ -4,6 +4,17 @@
   box-shadow: 0px 6px 21px -2px rgba(0,0,0,0.3);
 }
 
+@mixin common__blue-gradient {
+  background: rgba(71,104,134,1);
+  background: -moz-linear-gradient(-45deg, rgba(71,104,134,1) 0%, rgba(37,60,85,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,104,134,1)), color-stop(100%, rgba(37,60,85,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(71,104,134,1) 0%, rgba(37,60,85,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(71,104,134,1) 0%, rgba(37,60,85,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(71,104,134,1) 0%, rgba(37,60,85,1) 100%);
+  background: linear-gradient(135deg, rgba(71,104,134,1) 0%, rgba(37,60,85,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#476886', endColorstr='#253c55', GradientType=1 );
+}
+
 .common__header {
   border-bottom: solid 1px #666;
   @include common__shadow;
@@ -11,6 +22,10 @@
 .common__header-content {
   border-bottom: solid 1px #666;
   padding: .5em 2em;
+}
+.common__header-logo {
+  display:inline-block;
+  cursor:pointer;
 }
 .common__user {
   margin-right: 2em;
@@ -40,7 +55,7 @@
     display: inline-block;
     padding: .75em 2em;
     background-color: #FFF;
-
+    color: #AAA;
     cursor: pointer;
     font-weight: bold;
     border-right: solid 1px #666;
@@ -51,18 +66,13 @@
     }
   }
   li:hover {
-    background-color: #496a89;
-  }
-  a {
-    color: #AAA;
-  }
-  a:hover {
+    @include common__blue-gradient;
     color: #FFF;
   }
   background-color: #CCC;
   text-transform: uppercase;
 }
 .common__navigation-selected {
-  background-color: #496a89;
+  @include common__blue-gradient;
   color: #FFF;
 }
