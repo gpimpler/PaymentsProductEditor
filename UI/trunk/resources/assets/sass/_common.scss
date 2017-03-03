@@ -17,6 +17,7 @@
 
 .common__header {
   border-bottom: solid 1px #666;
+  position: relative;
   @include common__shadow;
 }
 .common__header-content {

@@ -1,5 +1,5 @@
 <template>
-    <div class="row expanded" style="margin:0;padding:0">
+    <div class="accents row expanded" style="margin:0;padding:0">
         <div class="large-9 medium-8 columns">
             <div class="accents__introduction">
                 <h1 class="accents__introduction-title"><i class="fa fa-flag"></i> Accents</h1>
