@@ -13,6 +13,9 @@
     import Configurator from '../components/Configurator.vue';
 
     export default {
+        data: () => ({
+            model: build.model
+        }),
         mounted() {
             console.log('Designer mounted.')
         },
