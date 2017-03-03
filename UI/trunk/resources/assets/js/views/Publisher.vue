@@ -1,13 +1,21 @@
 <template>
-    <div class="">
-        Publisher
+    <div class="row expanded" style="margin:0;padding:0">
+        <div class="large-9 medium-8 columns">
+            Publisher
+        </div>
+        <div class="large-3 medium-4 columns common__sidebar">
+            Sidebar
+        </div>
     </div>
 </template>
 
 <script>
     export default {
+        data: () => ({
+            model: build.model
+        }),
         mounted() {
-            console.log('Publisher mounted.')
+            console.log('Publisher mounted.');
         }
     }
 </script>

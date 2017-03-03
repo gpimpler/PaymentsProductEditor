@@ -5,7 +5,9 @@
                 <img src="../../images/harland-clarke-logo.png" style="height:70px" />
             </div>
             <div class="float-right common__user">
-                <span class="common__user-name">User Name</span> <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+                <span class="common__user-name">Welcome, {{model.user.name}}</span> <md-avatar class="md-avatar-icon md-medium">
+                <md-icon>account_circle</md-icon>
+            </md-avatar>
             </div>
         </div>
         <app-navigation></app-navigation>
@@ -16,6 +18,9 @@
     import AppNavigation from './AppNavigation.vue'
 
     export default {
+        data: () => ({
+            model: build.model
+        }),
         mounted() {
             console.log('AppHeader mounted.')
         },

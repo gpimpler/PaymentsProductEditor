@@ -33,7 +33,7 @@
 }
 .common__user-name {
   position: relative;
-  top: -.25em;
+  top: .1em;
   margin-right: 1em;
 }
 .common__footer {
@@ -45,31 +45,27 @@
   font-size: .75em;
 }
 .common__navigation {
-  ul {
-    margin:0;
-    padding:0;
-    list-style-type:none;
-  }
-  li {
-    display: inline-block;
-    padding: .75em 2em;
-    background-color: #FFF;
-    color: #AAA;
-    cursor: pointer;
-    font-weight: bold;
-    border-right: solid 1px #666;
-
-    i {
-      margin-right: .75em;
-      font-size: 1.5em;
-    }
-  }
-  li:hover {
-    @include common__blue-gradient;
-    color: #FFF;
-  }
   background-color: #CCC;
   text-transform: uppercase;
+}
+.common__navigation-btn {
+  display: inline-block;
+  padding: .75em 2em;
+  background-color: #FFF;
+  color: #AAA;
+  cursor: pointer;
+  font-weight: bold;
+  border-right: solid 1px #666;
+
+  i {
+    margin-right: .75em;
+    font-size: 1.5em;
+  }
+}
+.common__navigation-btn:hover {
+  /*@include common__blue-gradient;*/
+  background-color: #476987;
+  color: #FFF;
 }
 .common__navigation-selected {
   @include common__blue-gradient;

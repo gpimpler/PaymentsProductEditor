@@ -43,29 +43,65 @@
                 </div>
                 <div class="large-4 columns">
                     <form>
-                        <label>
-                            Provide your feedback.
-                            <textarea width="100%" placeholder="My feedback."></textarea>
-                        </label>
-                        <div class="row">
-                            <div class="small-6 columns"><label><input type="checkbox" /> Submit Anonymously</label></div>
-                            <div class="small-6 columns"><button type="submit" class="button">Submit Idea</button></div>
+                        <md-input-container md-theme="white">
+                            <label style="color:#FFF;">Your Feedback</label>
+                            <md-textarea v-model="feedback" style="color:#FFF;"></md-textarea>
+                        </md-input-container>
+                        <div class="row" style="padding:0">
+                            <div class="small-12 medium-6 columns">
+                                <md-checkbox v-model="anonymous" class="md-primary" :disabled="feedback==''"> Submit Anonymously</md-checkbox>
+                            </div>
+                            <div class="small-12 medium-6 columns">
+                                <md-button @click.native="onIdeaSubmit()" class="md-raised md-primary" :disabled="feedback==''">Submit Idea</md-button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+        <md-dialog-alert
+                :md-title="thanks.title"
+                :md-content-html="thanks.contentHtml"
+                @open="onOpenFeedback"
+                @close="onCloseFeedback"
+                ref="thanksDialog">
+        </md-dialog-alert>
     </div>
 </template>
 
 <script>
     export default {
+        data: () => ({
+            anonymous: false,
+            feedback: "",
+            thanks: {
+                title: 'Thank you!',
+                contentHtml: 'We appreciate your feedback and will be reviewing your feedback for inclusion into the application.'
+            }
+        }),
         mounted() {
             console.log('Home mounted.')
         },
         methods: {
             launch: function (url) {
                 window.location.href = "#/" + url;
+            },
+            onIdeaSubmit: function () {
+                // TODO: Setup db table to catalog these items
+                console.log("Submit an idea...stick it in the database: " + this.feedback);
+                this.openDialog('thanksDialog');
+            },
+            openDialog(ref) {
+                this.$refs[ref].open();
+            },
+            closeDialog(ref) {
+                this.$refs[ref].close();
+            },
+            onOpenFeedback: function () {
+
+            },
+            onCloseFeedback: function () {
+                this.feedback = '';
             }
         }
     }
