@@ -1,6 +1,6 @@
 <template>
     <div class="common__footer ">
-        Copyright {{year}} Harland Clarke Holdings Inc.
+        Copyright &copy; {{year}} Harland Clarke Holdings Inc.
     </div>
 </template>
 
