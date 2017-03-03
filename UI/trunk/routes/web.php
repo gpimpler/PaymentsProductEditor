@@ -14,3 +14,11 @@
 Route::get('/', 'HomeController@index');
 
 Auth::routes();
+
+Route::get('/user', function () {
+    if (Auth::check()) {
+        return Auth::user();
+    }
+
+    return;
+});
