@@ -49,7 +49,8 @@
   text-transform: uppercase;
 }
 .common__navigation-btn {
-  display: inline-block;
+  display: block;
+  float: left;
   padding: .75em 2em;
   background-color: #FFF;
   color: #AAA;
