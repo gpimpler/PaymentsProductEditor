@@ -82,6 +82,13 @@
   padding: 0;
   height: 100vh;
   overflow-y: scroll;
+
+  @media (max-width: 1024px) {
+    min-width: 0;
+    max-width: none;
+    height: auto;
+    overflow: visible;
+  }
 }
 .common__sidebar-heading,
 .common__sidebar-subheading {
@@ -149,5 +156,27 @@
   .fa {
     margin-right: 10px;
     color: #195daf;
+  }
+}
+.common__button {
+  color: #FFF;
+  background-color: #195daf;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 30px 20px;
+  transition: background-color .3s;
+
+  .fa {
+    font-size: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+
+  &:hover {
+    background-color: lighten(#195daf, 10%);
   }
 }

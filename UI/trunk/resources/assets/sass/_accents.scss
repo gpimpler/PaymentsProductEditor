@@ -4,7 +4,7 @@
 
 .accents__introduction,
 .accents__upload {
-    padding: 20px 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .accents__introduction {
@@ -27,6 +27,41 @@
         padding-right: 5px;
         position: relative;
         top: 5px;
+    }
+}
+
+.accents__upload {
+    @include clearfix;
+}
+
+.accents__upload-nav {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 1300px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.accents__upload-area {
+    width: 75%;
+    padding: 0 20px 0 80px;
+
+    @media (max-width: 1300px) {
+        padding-top: 20px;
+    }
+}
+
+.accents__upload-nav,
+.accents__upload-area {
+    float: left;
+
+    @media (max-width: 1300px) {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -60,11 +95,21 @@
         transition: border-color .3s;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1300px) {
         display: inline-block;
-        width: auto;
-        padding-left: 15px;
-        padding-right: 15px;
+        // width: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        margin: 0 10px;
+
+        &:first-of-type {
+            margin-left: 0;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
 
         &::before,
         &::after {
@@ -85,10 +130,6 @@
 
 .accents__upload-button-active {
     cursor: auto;
-}
-
-.accents__upload-area {
-    padding: 0 20px 0 80px;
 }
 
 .accents__upload-area-title {
@@ -130,4 +171,8 @@
     cursor: pointer;
     background: linear-gradient(to bottom, #fff 0%, #d7d7d7 1%, #b5b5b5 100%);
     text-shadow: 0 1px 0 #fff;
+
+    &:hover {
+        background: linear-gradient(to bottom, #fff 0%, #eee 1%, #ccc 100%);
+    }
 }
