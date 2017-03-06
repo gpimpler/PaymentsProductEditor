@@ -60,12 +60,17 @@
         transition: border-color .3s;
     }
 
-    // @media (max-width: 1024px) {
-    //     width: 30%;
-    //     margin-bottom: 0;
-    //     float: left;
-    //     margin-right: 10px;
-    // }
+    @media (max-width: 1024px) {
+        display: inline-block;
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &::before,
+        &::after {
+            display: none;
+        }
+    }
 }
 
 .accents__upload-button:hover,
