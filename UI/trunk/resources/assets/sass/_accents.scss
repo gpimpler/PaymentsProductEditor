@@ -12,24 +12,6 @@
     padding-top: 40px;
 }
 
-.accents__introduction-title,
-.accents__upload-area-title {
-    font-size: 18px;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
-.accents__introduction-title {
-    line-height: 2;
-
-    .fa {
-        font-size: 40px;
-        padding-right: 5px;
-        position: relative;
-        top: 5px;
-    }
-}
-
 .accents__upload {
     @include clearfix;
 }
@@ -134,6 +116,9 @@
 
 .accents__upload-area-title {
     color: #a3a3a3;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .accents__upload-area-drop {
