@@ -166,8 +166,16 @@
   border: 1px solid #FFF;
   border-radius: 5px;
   cursor: pointer;
-  padding: 10px 30px 20px;
+  padding: 20px 50px 20px;
   transition: background-color .3s;
+  font-weight: 900;
+  @include common__shadow;
+  &:hover {
+    background-color: lighten(#195daf, 10%);
+  }
+}
+.common__button-icon {
+  padding: 15px 50px 30px;
 
   .fa {
     font-size: 30px;
@@ -175,8 +183,17 @@
     position: relative;
     top: 5px;
   }
+}
+.common__title {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 2;
 
-  &:hover {
-    background-color: lighten(#195daf, 10%);
-  }
+    .fa {
+        font-size: 40px;
+        padding-right: 5px;
+        position: relative;
+        top: 5px;
+    }
 }
