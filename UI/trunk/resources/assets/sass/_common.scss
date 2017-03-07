@@ -89,6 +89,9 @@
     height: auto;
     overflow: visible;
   }
+  .filelist-active {
+    border-bottom: 1px solid #737373;
+  }
 }
 .common__sidebar-heading,
 .common__sidebar-subheading {
@@ -138,26 +141,6 @@
     font-size: 24px;
   }
 }
-.common__sidebar-list {
-  visibility: hidden;
-  height: 0;
-  list-style: none;
-  margin: 0;
-}
-.common__sidebar-list-active {
-  border-bottom: 1px solid #737373;
-  visibility: visible;
-  height: auto;
-  padding: 20px;
-}
-.common__sidebar-listitem {
-  color: #737373;
-
-  .fa {
-    margin-right: 10px;
-    color: #195daf;
-  }
-}
 .common__button {
   color: #FFF;
   background-color: #195daf;
@@ -196,4 +179,23 @@
         position: relative;
         top: 5px;
     }
+}
+.filelist {
+  visibility: hidden;
+  height: 0;
+  list-style: none;
+  margin: 0;
+}
+.filelist-active {
+  visibility: visible;
+  height: auto;
+  padding: 20px;
+}
+.filelist__item {
+  color: #737373;
+
+  .fa {
+    margin-right: 10px;
+    color: #195daf;
+  }
 }
