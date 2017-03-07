@@ -18,7 +18,7 @@ class CreateStylesTable extends Migration
             $table->integer('id', 11)->unique()->comment('Unique identifier for the style ids');
             $table->mediumInteger('product');
             $table->string('style')->comment('The style id to be used');
-            $table->longText('data')->comment('The json data associated with this style id.');
+            $table->longText('data')->nullable()->comment('The json data associated with this style id.');
             $table->smallInteger('version');
             $table->timestamp('date')->useCurrent();
             $table->tinyInteger('active')->default(1);
