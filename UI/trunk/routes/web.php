@@ -22,3 +22,9 @@ Route::get('/user', function () {
 
     return;
 });
+
+Route::get('/api/style/{id}', 'StyleController@style')->where('id', '[0-9]+');
+Route::get('/api/style', 'StyleController@styles');
+
+Route::get('/api/product/{id}', 'ProductController@product')->where('id', '[0-9]+');
+Route::get('/api/product', 'ProductController@products');
