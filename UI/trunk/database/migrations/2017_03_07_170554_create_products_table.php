@@ -15,7 +15,7 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->engine = 'InnoDB';
-            $table->integer('id', 11)->unique();
+            $table->increments('id', 11)->unique();
             $table->string('type');
             $table->tinyInteger('active')->default(1);
         });
