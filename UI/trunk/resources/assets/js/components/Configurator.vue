@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="row">
+        <div class="row designer">
             <div class="medium-3 columns">
                 <div class="field-group">
                     <md-input-container>
@@ -21,15 +21,31 @@
                     </md-input-container>
                 </div>
             </div>
+            <div class="medium-6 columns">
+                <p class="designer__caption"><span class="bold">StyleId {{model.state.style}}</span> is a personal check layout with Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quas delectus fugiat nobis minima molestiae nihil natus, soluta ut eligendi?</p>
+            </div>
             <div class="large-12 columns" style="text-align:center">
                 <img style="border:solid 1px #000;" src="https://www.ordermychecks.com/products/images/base/wdlm_01_base.jpg" />
             </div>
         </div>
-        <div class="row expanded" style="background-color:#83a4c7">
-            <h2 class="column">Add Fields to Product</h2>
+        <div class="row expanded designer__fields" style="background-color:#83a4c7">
+            <h2 class="column designer__fields-heading">Add Fields to Product</h2>
             <hr/>
-            <div class="medium-6 columns">Add Fields to Product</div>
-            <div class="medium-6 columns">Add Fields to Product</div>
+            <div class="medium-6 columns">
+                <ul class="designer__fields-list">
+                    <li class="designer__fields-item">Customer Personalization</li>
+                    <li class="designer__fields-item">Starting Check Number</li>
+                    <li class="designer__fields-item">Institution Information</li>
+                    <li class="designer__fields-item">Over Signature Line</li>
+                </ul>
+            </div>
+            <div class="medium-6 columns">
+                <ul class="designer__fields-list">
+                    <li class="designer__fields-item">Pridemark</li>
+                    <li class="designer__fields-item">Monogram</li>
+                    <li class="designer__fields-item">Expression</li>
+                </ul>
+            </div>
         </div>
 
     </div>

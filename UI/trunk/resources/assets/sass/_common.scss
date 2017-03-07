@@ -77,7 +77,6 @@
   border-left: dotted 1px #CCC;
   float: right;
   max-width: 415px;
-  min-width: 300px;
   background-color: #FFF;
   padding: 0;
   height: 100vh;
@@ -194,8 +193,8 @@
 .filelist__item {
   color: #737373;
 
-  .fa {
-    margin-right: 10px;
-    color: #195daf;
+  .md-checkbox {
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 }
