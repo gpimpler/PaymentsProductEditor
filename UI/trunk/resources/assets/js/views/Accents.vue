@@ -17,68 +17,68 @@
                     Pridemarks/Accents
                     <i class="common__sidebar-arrow fa fa-chevron-down"></i>
                 </h3>
-                <ul class="common__sidebar-list common__sidebar-list-active">
-                    <li class="common__sidebar-listitem">
+                <ul class="filelist filelist-active">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
@@ -90,12 +90,12 @@
                     Expressions
                     <i class="common__sidebar-arrow fa fa-chevron-down"></i>
                 </h3>
-                <ul class="common__sidebar-list">
-                    <li class="common__sidebar-listitem">
+                <ul class="filelist">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
@@ -107,12 +107,12 @@
                     Monograms
                     <i class="common__sidebar-arrow fa fa-chevron-down"></i>
                 </h3>
-                <ul class="common__sidebar-list">
-                    <li class="common__sidebar-listitem">
+                <ul class="filelist">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>
-                    <li class="common__sidebar-listitem">
+                    <li class="filelist__item">
                         <i class="fa fa-check-square-o"></i>
                         EX50BL.png
                     </li>

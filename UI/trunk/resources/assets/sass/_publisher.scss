@@ -33,6 +33,10 @@
         float: right;
         margin-top: 25px;
     }
+
+    .publisher__button-count {
+        background-color: #d0011b;
+    }
 }
 
 .publisher__introduction-content,
@@ -63,11 +67,19 @@
     .publisher__button {
         display: none;
     }
+
+    .filelist__item {
+        margin-top: 0;
+        width: (100% / 3);
+        float: left;
+    }
 }
 
 .publisher__box-title {
     font-weight: normal;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
 
 .publisher__box-header {
@@ -75,9 +87,18 @@
     margin: 0;
 }
 
+.publisher__upload-status {
+    margin: 0;
+    padding: 6px 0 0;
+}
+
 .publisher__box-active {
     background-color: #fff;
     padding-top: 20px;
+
+    .publisher__box-title {
+        padding-top: 10px;
+    }
 
     .publisher__button {
         display: inline-block;
