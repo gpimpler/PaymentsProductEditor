@@ -27,7 +27,7 @@
                     </div>
                     <div class="row">
                         <ul class="filelist filelist-active large-12 columns">
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
+                            <li class="filelist__item"><md-checkbox>13706</md-checkbox></li>
                         </ul>
                     </div>
                 </div>
@@ -66,41 +66,41 @@
                     </div>
                     <div class="row">
                         <ul class="filelist filelist-active large-12 columns">
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
-                            <li class="filelist__item"><i class="fa fa-check-square-o"></i> 13706</li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
                         </ul>
                     </div>
                 </div>

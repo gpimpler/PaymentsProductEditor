@@ -19,68 +19,52 @@
                 </h3>
                 <ul class="filelist filelist-active">
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                 </ul>
             </div>
@@ -92,12 +76,10 @@
                 </h3>
                 <ul class="filelist">
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                 </ul>
             </div>
@@ -109,12 +91,10 @@
                 </h3>
                 <ul class="filelist">
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <i class="fa fa-check-square-o"></i>
-                        EX50BL.png
+                        <md-checkbox>EX50BL.png</md-checkbox>
                     </li>
                 </ul>
             </div>
