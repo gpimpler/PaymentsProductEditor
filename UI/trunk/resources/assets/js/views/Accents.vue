@@ -19,52 +19,52 @@
                 </h3>
                 <ul class="filelist filelist-active">
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                 </ul>
             </div>
@@ -76,10 +76,10 @@
                 </h3>
                 <ul class="filelist">
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                 </ul>
             </div>
@@ -91,10 +91,10 @@
                 </h3>
                 <ul class="filelist">
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                     <li class="filelist__item">
-                        <md-checkbox>EX50BL.png</md-checkbox>
+                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
                     </li>
                 </ul>
             </div>
