@@ -48,10 +48,11 @@
 .common__navigation {
   background-color: #CCC;
   text-transform: uppercase;
+  display: flex;
 }
 .common__navigation-btn {
-  display: block;
-  float: left;
+  // display: block;
+  // float: left;
   padding: .75em 2em;
   background-color: #FFF;
   color: #AAA;
