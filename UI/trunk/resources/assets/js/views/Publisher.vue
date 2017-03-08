@@ -27,7 +27,9 @@
                     </div>
                     <div class="row">
                         <ul class="filelist filelist-active large-12 columns">
-                            <li class="filelist__item"><md-checkbox>13706</md-checkbox></li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">13706</md-checkbox>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -66,41 +68,111 @@
                     </div>
                     <div class="row">
                         <ul class="filelist filelist-active large-12 columns">
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
-                            <li class="filelist__item"><md-checkbox>EX50BL.png</md-checkbox></li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
+                            <li class="filelist__item">
+                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
+                            </li>
                         </ul>
                     </div>
                 </div>
