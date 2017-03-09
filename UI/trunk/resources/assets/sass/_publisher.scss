@@ -1,68 +1,49 @@
-.publisher {
-    background-color: #f7f7f7;
-}
-
 .publisher__button {
     position: relative;
     display: inline-block;
 }
 
 .publisher__button-count {
-    color: #FFF;
-    background-color: #81a3c9;
-    border: 1px solid #FFF;
+    color: $white;
+    background-color: $light-blue;
+    border: 1px solid $white;
     text-align: center;
     position: absolute;
-    top: -20px;
-    right: -20px;
-    width: 48px;
-    height: 48px;
-    line-height: 48px;
-    border-radius: 24px;
+    top: rem-calc(-20px);
+    right: rem-calc(-20px);
+    width: rem-calc(48px);
+    height: rem-calc(48px);
+    line-height: rem-calc(48px);
+    border-radius: rem-calc(24px);
     @include common__shadow;
 }
 
 .publisher__introduction {
     @include clearfix;
-    margin: 0 40px 15px;
-    padding: 20px 0;
-    border-bottom: 1px dashed #a3a3a3;
-    color: #a3a3a3;
+    margin: 0 rem-calc(40px) rem-calc(15px);
+    padding: rem-calc(20px) 0;
+    border-bottom: $common__border-dashed;
 
     .publisher__button {
         float: right;
-        margin-top: 25px;
+        margin-top: rem-calc(25px);
     }
 
     .publisher__button-count {
-        background-color: #d0011b;
+        background-color: $red;
     }
 }
 
-.publisher__introduction-content,
-.publisher__introduction-button {
-    float: left;
-}
-
-.publisher__introduction-content {
-    width: 75%;
-}
-
-.publisher__introduction-button {
-    width: 25%;
-}
-
 .publisher__upload {
-    padding: 20px 40px;
+    padding: rem-calc(20px) rem-calc(40px);
 }
 
 .publisher__box {
-    border: 1px solid #a3a3a3;
-    border-radius: 5px;
-    background-color: #c8c8c8;
-    color: #999;
-    padding: 20px;
-    margin-bottom: 20px;
+    border: $common__border;
+    border-radius: rem-calc(5px);
+    background-color: $light-grey;
+    padding: rem-calc(20px);
+    margin-bottom: rem-calc(20px);
 
     .publisher__button {
         display: none;
@@ -76,6 +57,8 @@
 }
 
 .publisher__box-title {
+    color: $grey;
+    font-size: rem-calc(24px);
     font-weight: normal;
     text-transform: uppercase;
     margin: 0;
@@ -89,15 +72,15 @@
 
 .publisher__upload-status {
     margin: 0;
-    padding: 6px 0 0;
+    padding: rem-calc(6px) 0 0;
 }
 
 .publisher__box-active {
-    background-color: #fff;
-    padding-top: 20px;
+    background-color: $white;
+    padding-top: rem-calc(20px);
 
     .publisher__box-title {
-        padding-top: 10px;
+        padding-top: rem-calc(10px);
     }
 
     .publisher__button {
@@ -106,7 +89,7 @@
     }
 
     .publisher__box-header {
-        border-bottom: 1px dashed #a3a3a3;
-        padding: 0 0 20px;
+        border-bottom: $common__border-dashed;
+        padding: 0 0 rem-calc(20px);
     }
 }

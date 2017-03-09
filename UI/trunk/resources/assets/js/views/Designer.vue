@@ -1,5 +1,5 @@
 <template>
-    <div class="row expanded" style="margin:0;padding:0">
+    <div class="row expanded designer" style="margin:0;padding:0">
         <div class="large-3 medium-4 columns common__sidebar designer__inputs">
             <div class="designer__inputs-wrapper">
                 <div class="designer__inputs-header">
@@ -206,9 +206,9 @@
                 <hr>
             </div>
         </div>
-        <div class="large-9 medium-8 columns" style="margin:0;padding:0;background-color:#ECECEC;">
+<!--         <div class="designer__configurator" style="margin:0;padding:0;background-color:#ECECEC;"> -->
             <configurator></configurator>
-        </div>
+        <!-- </div> -->
     </div>
 </template>
 
