@@ -1,10 +1,10 @@
 <template>
-    <div class="accents row expanded" style="margin:0;padding:0">
+    <div class="common__content-holder accents row expanded" style="margin:0;padding:0">
         <div class="large-8 medium-6 columns">
             <div class="accents__introduction">
                 <h1 class="common__title"><i class="fa fa-flag"></i> Accents</h1>
-                <p class="accents__introduction-caption show-for-large">The accent utility is a drag and drop system for maintaining accents, pridemarks, expressions, and other graphical content used in the Check Preview Server. Tips: Use the highest resolution images available for the highest quality images.</p>
-                <p class="accents__introduction-caption hide-for-large">Unfortunately file upload is not available on mobile or tablet devices. You may still public those items that are in the queue and manage what gets published.</p>
+                <p class="common__description show-for-large">The accent utility is a drag and drop system for maintaining accents, pridemarks, expressions, and other graphical content used in the Check Preview Server. Tips: Use the highest resolution images available for the highest quality images.</p>
+                <p class="common__description hide-for-large">Unfortunately file upload is not available on mobile or tablet devices. You may still public those items that are in the queue and manage what gets published.</p>
                 <button class="common__button common__button-icon hide-for-large"><i class="fa fa-cloud-upload"></i> Publisher</button>
             </div>
             <accents-upload></accents-upload>

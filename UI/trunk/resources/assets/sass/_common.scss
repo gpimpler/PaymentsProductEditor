@@ -16,12 +16,14 @@
 }
 
 .common__header {
-  border-bottom: solid 1px #666;
+  border-bottom: $common__border;
   position: relative;
+  position: relative;
+  z-index: 2;
   @include common__shadow;
 }
 .common__header-content {
-  border-bottom: solid 1px #666;
+  border-bottom: $common__border;
   padding: .5em 2em;
 }
 .common__header-logo {
@@ -38,15 +40,15 @@
   margin-right: 1em;
 }
 .common__footer {
-  color: #666;
-  background-color: #CCC;
+  color: $grey;
+  background-color: $light-grey;
   text-align: center;
   padding: 1em;
   text-transform:uppercase;
   font-size: .75em;
 }
 .common__navigation {
-  background-color: #CCC;
+  background-color: $light-grey;
   text-transform: uppercase;
   display: flex;
 }
@@ -54,11 +56,11 @@
   // display: block;
   // float: left;
   padding: .75em 2em;
-  background-color: #FFF;
+  background-color: $white;
   color: #AAA;
   cursor: pointer;
   font-weight: bold;
-  border-right: solid 1px #666;
+  border-right: $common__border;
 
   i {
     margin-right: .75em;
@@ -67,21 +69,23 @@
 }
 .common__navigation-btn:hover {
   /*@include common__blue-gradient;*/
-  background-color: #476987;
-  color: #FFF;
+  background-color: $blue-grey;
+  color: $white;
 }
 .common__navigation-selected {
   @include common__blue-gradient;
-  color: #FFF;
+  color: $white;
 }
 .common__sidebar {
-  border-left: dotted 1px #CCC;
+  border-left: dotted 1px $light-grey;
   float: right;
-  max-width: 415px;
-  background-color: #FFF;
+  max-width: rem-calc(415px);
+  background-color: $white;
   padding: 0;
-  height: 100vh;
+  // max-height: 100vh;
   overflow-y: scroll;
+  position: relative;
+  z-index: 1;
 
   @media (max-width: 1024px) {
     min-width: 0;
@@ -90,7 +94,7 @@
     overflow: visible;
   }
   .filelist-active {
-    border-bottom: 1px solid #737373;
+    border-bottom: 1px solid $darker-grey;
   }
 }
 .common__sidebar-heading,
@@ -98,55 +102,56 @@
   text-transform: uppercase;
   margin: 0;
   font-weight: normal;
-  font-size: 18px;
+  font-size: rem-calc(18px);
+  color: $grey;
 }
 .common__sidebar-heading {
-  padding: 21px 25px;
-  border-bottom: 1px solid #737373;
+  padding: rem-calc(21px) rem-calc(25px);
+  border-bottom: 1px solid $darker-grey;
   .fa {
-    font-size: 20px;
-    color: #737373;
-    margin-right: 10px;
+    font-size: rem-calc(20px);
+    color: $darker-grey;
+    margin-right: rem-calc(10px);
   }
 }
 .common__sidebar-subheading {
-  background-color: #CCC;
-  border-bottom: 1px solid #737373;
-  padding: 10px 20px;
+  background-color: $light-grey;
+  border-bottom: $common__border;
+  padding: rem-calc(10px) rem-calc(20px);
   position: relative;
 }
 .common__sidebar-count {
-  margin-right: 10px;
+  margin-right: rem-calc(10px);
   display: inline-block;
   border-radius: (46px / 2);
-  width: 46px;
-  height: 46px;
-  background-color: #737373;
-  border: 1px solid #FFF;
-  line-height: 44px;
+  width: rem-calc(46px);
+  height: rem-calc(46px);
+  background-color: $darker-grey;
+  border: 1px solid $white;
+  line-height: rem-calc(44px);
   text-align: center;
-  color: #FFF;
+  color: $white;
 }
 .common__sidebar-count-active {
-  background-color: #195daf;
+  background-color: $blue;
 }
 .common__sidebar-arrow {
-  color: #737373;
+  color: $darker-grey;
   position: absolute;
   right: 30px;
   top: 50%;
   transform: translate(0, -50%);
 
   &.fa {
-    font-size: 24px;
+    font-size: rem-calc(24px);
   }
 }
 .common__button {
-  color: #FFF;
-  background-color: #195daf;
+  color: $white;
+  background-color: $blue;
   text-align: center;
   text-transform: uppercase;
-  border: 1px solid #FFF;
+  border: 1px solid $white;
   border-radius: 5px;
   cursor: pointer;
   padding: 20px 50px 20px;
@@ -154,7 +159,7 @@
   font-weight: 900;
   @include common__shadow;
   &:hover {
-    background-color: lighten(#195daf, 10%);
+    background-color: lighten($blue, 10%);
   }
 }
 .common__button-icon {
@@ -168,17 +173,21 @@
   }
 }
 .common__title {
+  color: $grey;
   font-size: 18px;
   font-weight: normal;
   text-transform: uppercase;
   line-height: 2;
 
-    .fa {
-        font-size: 40px;
-        padding-right: 5px;
-        position: relative;
-        top: 5px;
-    }
+  .fa {
+    font-size: 40px;
+    padding-right: 5px;
+    position: relative;
+    top: 5px;
+  }
+}
+.common__description {
+  color: $grey;
 }
 .filelist {
   visibility: hidden;
@@ -189,13 +198,16 @@
 .filelist-active {
   visibility: visible;
   height: auto;
-  padding: 20px;
+  padding: 10px 20px;
 }
 .filelist__item {
-  color: #737373;
+  color: $darker-grey;
 
   .md-checkbox {
     margin-top: 8px;
     margin-bottom: 8px;
   }
+}
+.common__content-holder {
+  background-color: $off-white;
 }

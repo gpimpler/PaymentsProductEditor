@@ -2,11 +2,11 @@
     <div class="row expanded publisher" style="margin:0;padding:0">
         <div class="large-12 medium-12 columns">
             <div class="publisher__introduction">
-                <div class="publisher__introduction-content">
+                <div class="large-9 medium-8 columns">
                     <h1 class="common__title"><i class="fa fa-cloud-upload"></i> Publisher</h1>
-                    <p>Publisher allows you to update products out to the various environments. You can publish all changes or be selective of those that you want to publish.</p>
+                    <p class="common__description">Publisher allows you to update products out to the various environments. You can publish all changes or be selective of those that you want to publish.</p>
                 </div>
-                <div class="publisher__introduction-button">
+                <div class="large-3 medium-4 columns">
                     <div class="publisher__button"><button class="common__button">Publish All</button><span class="publisher__button-count">49</span></div>
                 </div>
             </div>
@@ -178,9 +178,6 @@
                 </div>
             </div>
         </div>
-<!--         <div class="large-3 medium-4 columns common__sidebar">
-            Sidebar
-        </div> -->
     </div>
 </template>
 

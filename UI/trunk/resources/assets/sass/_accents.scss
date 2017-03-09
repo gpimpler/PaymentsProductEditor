@@ -1,15 +1,6 @@
-.accents {
-    background-color: #f7f7f7;
-}
-
 .accents__introduction,
 .accents__upload {
-    padding: 20px 20px 20px 40px;
-}
-
-.accents__introduction {
-    color: #a3a3a3;
-    padding-top: 40px;
+    padding: rem-calc(20px) rem-calc(20px) rem-calc(20px) rem-calc(40px);
 }
 
 .accents__upload {
@@ -29,10 +20,10 @@
 
 .accents__upload-area {
     width: 75%;
-    padding: 0 20px 0 80px;
+    padding: 0 rem-calc(20px) 0 rem-calc(80px);
 
     @media (max-width: 1300px) {
-        padding-top: 20px;
+        padding-top: rem-calc(20px);
     }
 }
 
@@ -48,42 +39,40 @@
 }
 
 .accents__upload-button {
-    background-color: #d7d7d7;
-    color: #656565;
-    border: solid 1px #656565;
-    // border-right: 0;
+    background-color: $light-grey;
+    color: $grey;
+    border: $common__border;
     text-transform: uppercase;
-    padding: 15px 10px 15px 30px;
+    padding: rem-calc(15px) rem-calc(10px) rem-calc(15px) rem-calc(30px);
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: rem-calc(10px);
     width: 100%;
     position: relative;
-    height: 60px;
+    height: rem-calc(60px);
     text-align: left;
     transition: background-color .3s, color .3s;
 
     &::before {
-        @include css-triangle(30px, #656565, right);
+        @include css-triangle(30px, $grey, right);
         position: absolute;
-        top: -1px;
-        right: -31px;
+        top: rem-calc(-1px);
+        right: rem-calc(-31px);
     }
 
     &::after {
-        @include css-triangle(30px, #d7d7d7, right);
+        @include css-triangle(30px, $light-grey, right);
         position: absolute;
-        top: -1px;
-        right: -30px;
+        top: rem-calc(-1px);
+        right: rem-calc(-30px);
         transition: border-color .3s;
     }
 
     @media (max-width: 1300px) {
         display: inline-block;
-        // width: auto;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: rem-calc(25px);
+        padding-right: rem-calc(25px);
         text-align: center;
-        margin: 0 10px;
+        margin: 0 rem-calc(10px);
 
         &:first-of-type {
             margin-left: 0;
@@ -102,11 +91,11 @@
 
 .accents__upload-button:hover,
 .accents__upload-button-active {
-    background-color: #195daf;
-    color: #fff;
+    background-color: $blue;
+    color: $white;
 
     &::after {
-        border-left-color: #195daf;
+        border-left-color: $blue;
     }
 }
 
@@ -115,49 +104,49 @@
 }
 
 .accents__upload-area-title {
-    color: #a3a3a3;
-    font-size: 18px;
+    color: $grey;
+    font-size: rem-calc(18px);
     font-weight: normal;
     text-transform: uppercase;
 }
 
 .accents__upload-area-drop {
-    background-color: #ebebeb;
-    border: dashed 1px #656565;
-    border-radius: 5px;
-    padding: 40px 0;
-    margin: 20px 0;
+    background-color: $lightest-grey;
+    border: $common__border-dashed;
+    border-radius: rem-calc(5px);
+    padding: rem-calc(40px) 0;
+    margin: rem-calc(20px) 0;
     position: relative;
     text-align: center;
     cursor: pointer;
 
     p {
         width: 100%;
-        padding-left: 40px;
-        padding-right: 40px;
-        color: #a3a3a3;
+        padding-left: rem-calc(40px);
+        padding-right: rem-calc(40px);
+        color: $grey;
 
         .fa {
-            padding-top: 10px;
+            padding-top: rem-calc(10px);
             display: block;
-            font-size: 120px;
-            color: #d7d7d7;
+            font-size: rem-calc(120px);
+            color: $light-grey;
         }
     }
 }
 
 .accents__upload-area-button {
-    border: solid 1px #656565;
-    padding: 20px 25px;
-    border-radius: 5px;
-    color: #656565;
+    border: $common__border;
+    padding: rem-calc(20px) rem-calc(25px);
+    border-radius: rem-calc(5px);
+    color: $grey;
     font-weight: 900;
     text-transform: uppercase;
     cursor: pointer;
-    background: linear-gradient(to bottom, #fff 0%, #d7d7d7 1%, #b5b5b5 100%);
-    text-shadow: 0 1px 0 #fff;
+    background: linear-gradient(to bottom, $white 0%, $light-grey 1%, #bbb 100%);
+    text-shadow: 0 1px 0 $white;
 
     &:hover {
-        background: linear-gradient(to bottom, #fff 0%, #eee 1%, #ccc 100%);
+        background: linear-gradient(to bottom, $white 0%, $lightest-grey 1%, $light-grey 100%);
     }
 }
