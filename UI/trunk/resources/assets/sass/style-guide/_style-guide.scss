@@ -1,0 +1,82 @@
+// these styles are specific to StyleGuide.html
+
+.grid__column {
+    height: rem-calc(40);
+}
+
+.row {
+    padding: 20px 0;
+}
+
+.example {
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+
+    a {
+        display: block;
+    }
+}
+
+.color__swatches {
+    max-width: rem-calc(800);
+}
+
+.color__swatch {
+    height: rem-calc(40);
+    width: rem-calc(40);
+    margin-right: rem-calc(10);
+    float: left;
+}
+
+.color__swatch-offwhite { background-color: $color-offwhite; }
+.color__swatch-lightgrey { background-color: $color-lightgrey; }
+.color__swatch-grey { background-color: $color-grey; }
+.color__swatch-darkgrey { background-color: $color-darkgrey; }
+.color__swatch-darkblue { background-color: $color-darkblue; }
+.color__swatch-black { background-color: $color-black; }
+.color__swatch-blue { background-color: $color-blue; }
+.color__swatch-brightblue { background-color: $color-brightblue; }
+.color__swatch-green { background-color: $color-green; }
+.color__swatch-rust { background-color: $color-rust; }
+.color__swatch-navy { background-color: $color-navy; }
+.color__swatch-lime { background-color: $color-lime; }
+.color__swatch-white { background-color: $color-white; }
+.color__swatch-cobalt { background-color: $color-cobalt; }
+.color__swatch-orange { background-color: $color-orange; }
+
+.color__palette,
+.typography {
+    padding: rem-calc(40);
+    margin: rem-calc(30) 0;
+}
+
+.color__palette {
+    padding-left: 0;
+    padding-top: 0;
+    margin-left: 0;
+}
+
+.typography {
+    background-color: $color-lightgrey;
+    color: $color-darkblue;
+}
+
+.styleguide__subheading {
+    font-size: rem-calc(12);
+    color: $color-grey;
+    font-weight: 600;
+}
+
+.interactions {
+    margin-bottom: 100px;
+
+    .search__wrapper-active {
+        min-height: 250px;
+    }
+
+    // .form__input {
+        // margin-bottom: 10px;
+        // display: block;
+    // }
+}
