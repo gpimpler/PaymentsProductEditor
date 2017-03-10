@@ -132,7 +132,7 @@
   text-align: center;
   color: $white;
 }
-.common__sidebar-count-active {
+.common__sidebar-count.active {
   background-color: $blue;
 }
 .common__sidebar-arrow {
@@ -195,7 +195,7 @@
   list-style: none;
   margin: 0;
 }
-.filelist-active {
+.filelist.active {
   visibility: visible;
   height: auto;
   padding: 10px 20px;
