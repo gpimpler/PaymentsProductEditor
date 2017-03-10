@@ -11,109 +11,46 @@
         </div>
         <div class="large-4 medium-6 columns common__sidebar">
             <h2 class="common__sidebar-heading"><i class="fa fa-files-o"></i> Files Awaiting Publishing</h2>
-            <div class="common__sidebar-section">
-                <h3 class="common__sidebar-subheading common__sidebar-subheading-active">
-                    <span class="common__sidebar-count common__sidebar-count-active">16</span>
-                    Pridemarks/Accents
-                    <i class="common__sidebar-arrow fa fa-chevron-down"></i>
-                </h3>
-                <ul class="filelist filelist-active">
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                </ul>
-            </div>
-            <div class="common__sidebar-section">
-                <h3 class="common__sidebar-subheading">
-                    <span class="common__sidebar-count">0</span>
-                    Expressions
-                    <i class="common__sidebar-arrow fa fa-chevron-down"></i>
-                </h3>
-                <ul class="filelist">
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                </ul>
-            </div>
-            <div class="common__sidebar-section">
-                <h3 class="common__sidebar-subheading">
-                    <span class="common__sidebar-count">0</span>
-                    Monograms
-                    <i class="common__sidebar-arrow fa fa-chevron-down"></i>
-                </h3>
-                <ul class="filelist">
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                    <li class="filelist__item">
-                        <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                    </li>
-                </ul>
-            </div>
+            <accents-file-list :files="accents">Pridemarks/Accents</accents-file-list>
+            <accents-file-list :files="expressions">Expressions</accents-file-list>
+            <accents-file-list :files="monograms">Monograms</accents-file-list>
         </div>
     </div>
 </template>
 
 <script>
     import AccentsUpload from '../components/AccentsUpload.vue';
+    import AccentsFileList from '../components/AccentsFileList.vue';
 
     export default {
         data: () => ({
-            model: build.model
+            model: build.model,
+            accents: [
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png'
+            ],
+            expressions: [
+                'EX50BL.png'
+            ],
+            monograms: []
         }),
         mounted() {
             console.log('Accents mounted.');
         },
         components: {
-            AccentsUpload
+            AccentsUpload,
+            AccentsFileList
         }
     }
 </script>
