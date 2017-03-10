@@ -7,187 +7,72 @@
                     <p class="common__description">Publisher allows you to update products out to the various environments. You can publish all changes or be selective of those that you want to publish.</p>
                 </div>
                 <div class="large-3 medium-4 columns">
-                    <div class="publisher__button"><button class="common__button">Publish All</button><span class="publisher__button-count">49</span></div>
+                    <div class="publisher__button"><button class="common__button">Publish All</button><span class="publisher__button-count">{{fileCount}}</span></div>
                 </div>
             </div>
         </div>
         <div class="large-12 columns publisher__upload">
             <div class="large-6 columns">
-                <div class="publisher__box publisher__box-active">
-                    <div class="row publisher__box-header">
-                        <div class="large-6 columns">
-                            <h2 class="publisher__box-title">Product Layouts</h2>
-                        </div>
-                        <div class="large-6 columns">
-                            <div class="publisher__button">
-                                <button class="common__button">Publish Layouts</button>
-                                <span class="publisher__button-count">1</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <ul class="filelist filelist-active large-12 columns">
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">13706</md-checkbox>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="publisher__box">
-                    <div class="row publisher__box-header">
-                        <div class="large-6 columns">
-                            <h2 class="publisher__box-title">Monograms</h2>
-                        </div>
-                        <div class="large-6 columns">
-                            <p class="publisher__upload-status">no changed detected</p>
-                            <div class="publisher__button"><button class="common__button">Publish Monograms</button><span class="publisher__button-count">1</span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="publisher__box">
-                    <div class="row publisher__box-header">
-                        <div class="large-6 columns">
-                            <h2 class="publisher__box-title">Pridemarks</h2>
-                        </div>
-                        <div class="large-6 columns">
-                            <p class="publisher__upload-status">no changed detected</p>
-                            <div class="publisher__button"><button class="common__button">Publish Pridemarks</button><span class="publisher__button-count">1</span></div>
-                        </div>
-                    </div>
-                </div>
+                <publisher-upload :files="layouts">
+                    <span slot="title">Product Layouts</span>
+                    <span slot="button">Publish Layouts</span>
+                </publisher-upload>
+                <publisher-upload :files="monograms">
+                    <span slot="title">Monograms</span>
+                    <span slot="button">Publish Monograms</span>
+                </publisher-upload>
+                <publisher-upload :files="pridemarks">
+                    <span slot="title">Pridemarks</span>
+                    <span slot="button">Publish Pridemarks</span>
+                </publisher-upload>
             </div>
             <div class="large-6 columns">
-                <div class="publisher__box publisher__box-active">
-                    <div class="row publisher__box-header">
-                        <div class="large-6 columns">
-                            <h2 class="publisher__box-title">Expressions</h2>
-                        </div>
-                        <div class="large-6 columns">
-                            <div class="publisher__button"><button class="common__button">Publish Expressions</button><span class="publisher__button-count">1</span></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <ul class="filelist filelist-active large-12 columns">
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                            <li class="filelist__item">
-                                <md-checkbox class="md-primary">EX50BL.png</md-checkbox>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <publisher-upload :files="expressions">
+                    <span slot="title">Expressions</span>
+                    <span slot="button">Publish Expressions</span>
+                </publisher-upload>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+    import PublisherUpload from '../components/PublisherUpload.vue';
     export default {
         data: () => ({
-            model: build.model
+            model: build.model,
+            layouts: [
+                '13407',
+                '13408'
+            ],
+            monograms: [],
+            pridemarks: [],
+            expressions: [
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png',
+                'EX50BL.png'
+            ]
         }),
+        computed: {
+            fileCount() {
+                return this.layouts.length + this.monograms.length + this.pridemarks.length + this.expressions.length
+            }
+        },
         mounted() {
             console.log('Publisher mounted.');
+        },
+        components: {
+            PublisherUpload
         }
     }
 </script>
