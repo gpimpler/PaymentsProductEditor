@@ -7,7 +7,7 @@
     </h3>
     <ul class="filelist" v-bind:class="{ active: isActive }">
         <li class="filelist__item" v-for="file in files">
-            <md-checkbox class="md-primary">{{file}}</md-checkbox>
+            <md-checkbox :id="`file-${file}`" :name="`file_${file}`" class="md-primary">{{file}}</md-checkbox>
         </li>
     </ul>
 </div>

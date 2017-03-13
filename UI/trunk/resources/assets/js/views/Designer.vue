@@ -237,9 +237,11 @@
         methods: {
             toggleDesignerInputs(model) {
                 // only 1 input section should ever be visible
-                let switches = _.forEach(this.switches, (value, key) => {
+                _.forEach(this.switches, (value, key) => {
                     if (key !== model) {
                         this.switches[key] = false
+                    } else {
+                        this.switches[key] = true
                     }
                 })
             }

@@ -48,19 +48,19 @@
             monograms: [],
             pridemarks: [],
             expressions: [
+                'EX50AL.png',
                 'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png',
-                'EX50BL.png'
+                'EX50CL.png',
+                'EX50DL.png',
+                'EX50EL.png',
+                'EX50FL.png',
+                'EX50GL.png',
+                'EX50HL.png',
+                'EX50IL.png',
+                'EX50JL.png',
+                'EX50KL.png',
+                'EX50LL.png',
+                'EX50ML.png'
             ]
         }),
         computed: {
