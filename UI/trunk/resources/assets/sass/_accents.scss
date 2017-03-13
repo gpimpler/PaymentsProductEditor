@@ -90,7 +90,7 @@
 }
 
 .accents__upload-button:hover,
-.accents__upload-button-active {
+.accents__upload-button.active {
     background-color: $blue;
     color: $white;
 
@@ -99,7 +99,7 @@
     }
 }
 
-.accents__upload-button-active {
+.accents__upload-button.active {
     cursor: auto;
 }
 
