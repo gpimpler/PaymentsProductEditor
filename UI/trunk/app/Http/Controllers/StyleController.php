@@ -12,8 +12,8 @@ class StyleController extends Controller
         return Style::get();
     }
 
-    public function style($id)
+    public function style($style)
     {
-        return Style::find($id);
+        return Style::where('style', $style)->firstOrFail();
     }
 }

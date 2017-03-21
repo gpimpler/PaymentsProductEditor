@@ -15,7 +15,7 @@
                 <div class="field-group">
                     <md-input-container>
                         <label for="style">Styles</label>
-                        <md-select name="style" id="style" v-model="model.state.style" :disabled="model.products.styles.length < 2">
+                        <md-select name="style" id="style" @change="getStyle()" v-model="model.state.style" :disabled="model.products.styles.length < 2">
                             <md-option v-for="style in model.products.styles" :value="style">{{style}}</md-option>
                         </md-select>
                     </md-input-container>
@@ -51,15 +51,36 @@
 </template>
 
 <script>
+    const request = require('superagent')
     export default {
         data: () => ({
             model: build.model,
-            product: "0",
-            style: "0",
+            product: {},
+            style: {},
             disableProduct: true
         }),
         mounted() {
             console.log('Configurator mounted.')
+            request('GET', '/api/product/1/styles')
+            .end((err, res) => {
+                if (err) {
+                    return;
+                }
+
+                this.model.products.styles = res.body
+            })
+        },
+        methods: {
+            getStyle() {
+                request('GET', `/api/style/${this.model.state.style}`)
+                .end((err, res) => {
+                    if (err) {
+                        return;
+                    }
+
+                    this.style = res.body
+                })
+            }
         }
     }
 </script>

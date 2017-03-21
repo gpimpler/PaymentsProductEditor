@@ -16,7 +16,10 @@ class CreateStylesTable extends Migration
         Schema::create('styles', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id', 11)->unique()->comment('Unique identifier for the style ids');
-            $table->mediumInteger('product');
+            $table->integer('product_id')->unsigned();
+            $table->foreign('product_id')->references('id')
+                ->on('products')
+                ->onDelete('cascade');
             $table->string('style')->comment('The style id to be used');
             $table->longText('data')->nullable()->comment('The json data associated with this style id.');
             $table->smallInteger('version');

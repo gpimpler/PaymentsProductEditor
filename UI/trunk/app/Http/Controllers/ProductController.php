@@ -16,4 +16,9 @@ class ProductController extends Controller
     {
         return Product::find($id);
     }
+
+    public function styles($product_id)
+    {
+        return Product::find($product_id)->styles()->pluck('style');
+    }
 }
