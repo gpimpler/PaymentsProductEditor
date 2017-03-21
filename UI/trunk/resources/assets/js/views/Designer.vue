@@ -240,8 +240,6 @@
                 _.forEach(this.switches, (value, key) => {
                     if (key !== model) {
                         this.switches[key] = false
-                    } else {
-                        this.switches[key] = true
                     }
                 })
             }

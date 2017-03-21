@@ -11,7 +11,7 @@ var modelModule = {
     state: {
       page: "home",
       product: 0,
-      style: "15249"
+      style: "13706"
     }
   },
   libs: {},
